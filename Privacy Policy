@@ -1,0 +1,31 @@
+Community Resources Guide Privacy Policy
+Effective Date: January 8, 2025
+
+The Community Resources Guide is committed to protecting your privacy. Below is an explanation of how we handle information within the application.
+
+
+1. Data Collection
+The Community Resources Guide does not collect, store, or share any personal data about clients. It serves as a repository of publicly available information about organizations that provide financial and other assistance in the Greater Houston Area.
+The application stores organization email addresses provided by the organizations themselves. These addresses are used solely to generate a customized email signature for the organization when sending emails to clients. Organizations may update or remove their email addresses from the database at any time by contacting the developer.
+
+
+2. Data Usage
+The application uses limited access to each organization’s Google Sheets to display resource information. It does not access or use any other part of the organization’s Google account.
+All data is used solely for its intended purpose: connecting individuals and organizations with resources. The application does not share, sell, or use this data for any other purpose.
+
+
+3. Third-Party Data
+The Community Resources Guide does not maintain or handle client information, such as client email addresses. Any client information is managed directly by the referring organizations, and their respective privacy policies apply.
+
+
+4. Data Protection
+The email addresses stored in the application are protected with appropriate security measures to prevent unauthorized access or misuse.  Access to the Google Sheet that stores these email addresses is restricted solely to the developer, Omar Peracha. No other individual or entity has access to this data.
+
+
+5. Contact Information
+For questions about this privacy policy or other policies related to the application, please contact the developer:
+
+Omar Peracha
+Email: operacha@gmail.com
+
+A summary of this privacy policy and other CRG - Terms & Conditions are available directly within the application.
