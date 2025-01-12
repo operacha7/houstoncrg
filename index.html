@@ -78,19 +78,11 @@
     </div>
 
     <script>
-      function runApplication(language) {
-        const appLinks = {
-          en: "https://docs.google.com/spreadsheets/d/1YGbHC8sQXGzyDP7HPcZ4gObfITO6tb_IQWrkfCScR_M/edit",
-          es: "https://docs.google.com/spreadsheets/d/1YGbHC8sQXGzyDP7HPcZ4gObfITO6tb_IQWrkfCScR_M/edit?lang=es",
-        };
-
-        // Redirect user to the corresponding application link
-        if (appLinks[language]) {
-          window.location.href = appLinks[language];
-        } else {
-          alert("Language not supported.");
-        }
-      }
-    </script>
-  </body>
+    function runApplication(language) {
+      const webAppUrl = "https://script.google.com/macros/s/AKfycbzUv6VQoqI6O4wQz6Ej1EL6y4YizdNgPa9sd3JXWPOKsIVK-rTU8aWrbdf6Rz8aX6u9/exec"; // Replace with your Web App URL
+      const targetUrl = `${webAppUrl}?language=${language}`;
+      window.location.href = targetUrl;
+    }
+  </script>
+</body>
 </html>
