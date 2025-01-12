@@ -1,15 +1,96 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Community Resources Guide</title>
-</head>
-<body>
-  <h1><style"text-align: center;"<b>Welcome to the Community Resources Guide</h1></b>
-  <p><a href="privacy-policy.html">Privacy Policy</a></p>
-  <p><a href="terms-of-service.html">Terms of Service</a></p><br>
-  <p><a href="privacy-policy-es.html">Política de Privacidad</a></p>
-  <p><a href="terms-of-service-es.html">Términos de Servicio</a></p><br>
-    
-  <p><a href="https://docs.google.com/spreadsheets/d/1YGbHC8sQXGzyDP7HPcZ4gObfITO6tb_IQWrkfCScR_M/edit?pli=1&gid=197395462#gid=197395462">Run Application</a></p>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Community Resources Guide</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 20px;
+        background: #f8f9fa;
+      }
+      h1 {
+        text-align: center;
+      }
+      nav {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      nav a {
+        color: #007bff;
+        text-decoration: none;
+        margin: 0 10px;
+      }
+      nav a:hover {
+        text-decoration: underline;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
+      }
+      .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 10px;
+        font-size: 1em;
+        color: #fff;
+        background-color: #007bff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+      }
+      .btn:hover {
+        background-color: #0056b3;
+      }
+      .footer {
+        text-align: center;
+        margin-top: 40px;
+        font-size: 0.9em;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to the Community Resources Guide</h1>
+    <nav>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="terms-of-service.html">Terms of Service</a>
+      <a href="privacy-policy-es.html">Política de Privacidad</a>
+      <a href="terms-of-service-es.html">Términos de Servicio</a>
+    </nav>
+
+    <div class="container">
+      <button class="btn" onclick="runApplication('en')">
+        Run English Application
+      </button>
+      <button class="btn" onclick="runApplication('es')">
+        Run Spanish Application
+      </button>
+    </div>
+
+    <div class="footer">
+      <p>&copy; 2025 Community Resources Guide</p>
+    </div>
+
+    <script>
+      function runApplication(language) {
+        const appLinks = {
+          en: "https://docs.google.com/spreadsheets/d/1YGbHC8sQXGzyDP7HPcZ4gObfITO6tb_IQWrkfCScR_M/edit",
+          es: "https://docs.google.com/spreadsheets/d/1YGbHC8sQXGzyDP7HPcZ4gObfITO6tb_IQWrkfCScR_M/edit?lang=es",
+        };
+
+        // Redirect user to the corresponding application link
+        if (appLinks[language]) {
+          window.location.href = appLinks[language];
+        } else {
+          alert("Language not supported.");
+        }
+      }
+    </script>
+  </body>
 </html>
